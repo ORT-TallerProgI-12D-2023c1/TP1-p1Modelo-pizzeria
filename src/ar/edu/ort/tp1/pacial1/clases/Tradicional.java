@@ -7,9 +7,27 @@ public class Tradicional extends Pizza {
 	
 	//TODO A completar
 	public Tradicional(String nombre, float costoBase, float porcentajeGanancia, TipoDeMasa tipoDeMasa) {
+		super(nombre, costoBase, porcentajeGanancia);
+		this.tipoDeMasa = tipoDeMasa;
 	}
 
 	//TODO A completar
 	// Costo de produccion multiplicado por el porcentaje del tipo de masa.
 	//
+	@Override
+	public float getPrecioDeCosto() {
+		return getCostoDeProduccion() * tipoDeMasa.getPorcentaje();
+	}
+	
+	@Override
+	public void mostrar() {
+		//TODO A completar
+		System.out.printf(MSG_TRADICIONAL, 
+				getClass().getSimpleName(),
+				this.getNombre(),
+				getPrecioDeVenta(),
+				tipoDeMasa.getDescripcion());
+		
+	}
+
 }

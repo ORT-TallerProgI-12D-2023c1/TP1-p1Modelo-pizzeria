@@ -49,16 +49,32 @@ public class Parcial1 {
 	private static void fabricarTradicional(Pizzeria laPizzeria, String nombre, float costoBase,
 			float porcentajeGanancia, TipoDeMasa tipoDeMasa) {
 		//TODO Completar
+		try {
+			laPizzeria.fabricar(new Tradicional(nombre, costoBase, porcentajeGanancia, tipoDeMasa));
+		} catch (IllegalArgumentException e) {
+			System.out.printf(MSG_ERROR, e.getMessage());
+		}
+
 	}
 
 	private static void fabricarEspecial(Pizzeria laPizzeria, String nombre, float costoBase, float porcentajeGanancia,
 			int cantidadFainas, TamanioDePizza tamanioDePizza) {
 		//TODO Completar
+		try {
+			laPizzeria.fabricar(new Especial(nombre, costoBase, porcentajeGanancia, cantidadFainas, tamanioDePizza));
+		} catch (IllegalArgumentException e) {
+			System.out.printf(MSG_ERROR, e.getMessage());
+		}
 	}
 
 	private static void fabricarRectangular(Pizzeria laPizzeria, String nombre, float costoBase,
 			float porcentajeGanancia, long largo, long ancho, AdicionalQueso adicionalQueso) {
 		//TODO Completar
+		try {
+			laPizzeria.fabricar(new Rectangular(nombre, costoBase, porcentajeGanancia, largo, ancho, adicionalQueso));
+		} catch (IllegalArgumentException e) {
+			System.out.printf(MSG_ERROR, e.getMessage());
+		}
 	}
 
 }

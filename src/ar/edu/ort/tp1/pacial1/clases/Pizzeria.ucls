@@ -2,8 +2,8 @@
 <class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <enumeration id="1" language="java" name="ar.edu.ort.tp1.pacial1.clases.AdicionalQueso" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/AdicionalQueso.java" binary="false" 
+    project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/AdicionalQueso.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="857" y="405"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -13,8 +13,8 @@
     </display>  
   </enumeration>  
   <enumeration id="2" language="java" name="ar.edu.ort.tp1.pacial1.clases.TipoDeMasa" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/TipoDeMasa.java" binary="false" 
+    project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/TipoDeMasa.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="189" width="161" x="517" y="403"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -23,8 +23,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="3" language="java" name="ar.edu.ort.tp1.pacial1.clases.Pizza" project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/Pizza.java" binary="false" 
+  <class id="3" language="java" name="ar.edu.ort.tp1.pacial1.clases.Pizza" project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/Pizza.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="537" y="30"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -33,11 +33,10 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="ar.edu.ort.tp1.pacial1.clases.Especial" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/Especial.java" binary="false" 
+  <class id="4" language="java" name="ar.edu.ort.tp1.pacial1.clases.Especial" project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/Especial.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="252" y="243"/>    
+    <position height="-1" width="-1" x="246" y="264"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -45,8 +44,8 @@
     </display>  
   </class>  
   <interface id="5" language="java" name="ar.edu.ort.tp1.pacial1.clases.Mostrable" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/Mostrable.java" binary="false" 
+    project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/Mostrable.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="864" y="-68"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -56,8 +55,8 @@
     </display>  
   </interface>  
   <class id="6" language="java" name="ar.edu.ort.tp1.pacial1.clases.Tradicional" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/Tradicional.java" binary="false" 
+    project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/Tradicional.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="538" y="290"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -66,9 +65,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="ar.edu.ort.tp1.pacial1.clases.Pizzeria" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/Pizzeria.java" binary="false" 
+  <class id="7" language="java" name="ar.edu.ort.tp1.pacial1.clases.Pizzeria" project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/Pizzeria.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1166" y="5"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -78,8 +76,8 @@
     </display>  
   </class>  
   <class id="8" language="java" name="ar.edu.ort.tp1.pacial1.clases.Rectangular" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/Rectangular.java" binary="false" 
+    project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/Rectangular.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="855" y="156"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -89,8 +87,8 @@
     </display>  
   </class>  
   <enumeration id="9" language="java" name="ar.edu.ort.tp1.pacial1.clases.TamanioDePizza" 
-    project="TP1_2021_C2_P1_Pizzeria-Incompleto" 
-    file="/TP1_2021_C2_P1_Pizzeria-Incompleto/src/ar/edu/ort/tp1/pacial1/clases/TamanioDePizza.java" binary="false" 
+    project="TP1_2021_C2_P1_Pizzeria-Completo" 
+    file="/TP1_2021_C2_P1_Pizzeria-Completo/src/ar/edu/ort/tp1/pacial1/clases/TamanioDePizza.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="207" width="165" x="232" y="403"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -99,22 +97,22 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <association id="10">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="11" name="tipoDeMasa">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="12" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="13">    
+  <generalization id="10">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
+  <association id="11">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="12" name="tamanioDePizza">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <association id="14">    
     <end type="SOURCE" refId="8" navigable="false">      
       <attribute id="15" name="adicionalQueso">        
@@ -127,46 +125,46 @@
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="17">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <association id="18">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="19" name="tamanioDePizza">        
+  <association id="17">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="18" name="tipoDeMasa">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="20" minimum="0" maximum="1">        
+      <multiplicity id="19" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="21">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="22">    
+  <generalization id="20">    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
-  <realization id="23">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <association id="24">    
+  <association id="21">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="25" name="pizzasFabricadas">        
+      <attribute id="22" name="pizzasFabricadas">        
         <position height="0" width="0" x="-333" y="0"/>      
       </attribute>      
-      <multiplicity id="26" minimum="0" maximum="2147483647">        
+      <multiplicity id="23" minimum="0" maximum="2147483647">        
         <position height="0" width="0" x="-333" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
